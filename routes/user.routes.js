@@ -5,6 +5,7 @@ const CellController = require('../controllers/cell.controller');
 module.exports = function (app) {
   // Rutas para usuarios
   app.post('/api/user', UserController.getUserByIdAndPassword);
+  app.post('/api/user/new', UserController.createUser);
 
   // Rutas para ubicaciones
   app.get('/api/locations', LocationController.getAllLocations);

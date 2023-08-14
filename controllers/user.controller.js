@@ -16,3 +16,12 @@ module.exports.getUserByIdAndPassword = (req, res) => {
         .json({ error: "Something went wrong when fetching the user" })
     );
 };
+
+
+module.exports.createUser = (req, res) => {
+  const { id, name, lastName, email, password, homeDirections } = req.body;
+
+  User.create({ id, name, lastName, email, password, homeDirections })
+    .then((user) => res.json(user))
+    .catch((err) => res.status(500).json({ error: err }));
+};
