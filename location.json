@@ -1,0 +1,637 @@
+[
+    {
+        "province": "Azuay",
+        "cities": [
+            {
+                "city": "Cuenca",
+                "neighborhoods": [
+                    "San Sebastián",
+                    "El Batán"
+                ]
+            },
+            {
+                "city": "Gualaceo",
+                "neighborhoods": [
+                    "Centro Histórico",
+                    "Simón Bolívar"
+                ]
+            },
+            {
+                "city": "Paute",
+                "neighborhoods": [
+                    "Pancalle",
+                    "La Playa"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Bolívar",
+        "cities": [
+            {
+                "city": "Guaranda",
+                "neighborhoods": [
+                    "La Pila",
+                    "El barrio caliente"
+                ]
+            },
+            {
+                "city": "San Miguel",
+                "neighborhoods": [
+                    "San Miguel",
+                    "Balsapamba"
+                ]
+            },
+            {
+                "city": "Caluma",
+                "neighborhoods": [
+                    "Bellavista",
+                    "Nueva Esperanza"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Cañar",
+        "cities": [
+            {
+                "city": "La Troncal",
+                "neighborhoods": [
+                    "La Troncal",
+                    "Manuel J. Calle"
+                ]
+            },
+            {
+                "city": "Azogues",
+                "neighborhoods":[
+                    "Cojitambo",
+                    "Guapán"
+                ]
+            },
+            {
+                "city": "Cañar",
+                "neighborhoods":[
+                    "General Morales",
+                    "Juncal"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Carchi",
+        "cities":[
+            {
+                "city": "Tulcán",
+                "neighborhoods":[
+                    "Chical",
+                    "El Carmelo"
+                ]
+            },
+            {
+                "city": "San Gabriel",
+                "neighborhoods":[
+                    "San José",
+                    "Santa Clara"
+                ]
+            },
+            {
+                "city": "El Ángel",
+                "neighborhoods":[
+                    "Santiago",
+                    "Hato Viejo"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Chimborazo",
+        "cities":[
+            {
+                "city": "Riobamba",
+                "neighborhoods":[
+                    "Agua Santa",
+                    "Amula chico"
+                ]
+            },
+            {
+                "city": "Cumandá",
+                "neighborhoods":[
+                    "Argentina",
+                    "Bucay Chico"
+                ]
+            },
+            {
+                "city": "Canton Guano",
+                "neighborhoods":[
+                    "San José de Chocón",
+                    "Manzana"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Cotopaxi",
+        "cities":[
+            {
+                "city": "Latacunga",
+                "neighborhoods":[
+                    "Eloy Alfaro",
+                    "Juan Montalvo"
+                ]
+            },
+            {
+                "city": "La Maná",
+                "neighborhoods":[
+                    "La Libertad",
+                    "El Carmen"
+                ]
+            },
+            {
+                "city": "San Miguel de Salcedo",
+                "neighborhoods":[
+                    "Anchilivi",
+                    "Barbapamba"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "El Oro",
+        "cities":[
+            {
+                "city": "Machala",
+                "neighborhoods":[
+                    "La Ciudadela",
+                    "La Maria"
+                ]
+            },
+            {
+                "city": "Pasaje",
+                "neighborhoods":[
+                    "11 de Julio",
+                    "13 de Mayo"
+                ]
+            },
+            {
+                "city": "Santa Rosa",
+                "neighborhoods":[
+                    "Caluguro",
+                    "Medina"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Esmeraldas",
+        "cities": [
+            {
+                "city": "Esmeraldas",
+                "neighborhoods":[
+                    "Camarones",
+                    "Chinca"
+                ]
+            },
+            {
+                "city": "Rosa Zárate",
+                "neighborhoods":[
+                    "La Orquídea",
+                    "Oswaldo Guayasamín"
+                ]
+            },
+            {
+                "city": "San Lorenzo",
+                "neighborhoods":[
+                    "Alto Tambo",
+                    "Concepción"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Galápagos",
+        "cities":[
+            {
+                "city": "Puerto Ayora",
+                "neighborhoods":[
+                    "El Edén",
+                    "Las Ninfas"
+                ]
+            },
+            {
+                "city": "Puerto Baquerizo Moreno",
+                "neighborhoods":[
+                    "San Cristóbal",
+                    "Punta Hobbs"
+                ]
+            },
+            {
+                "city": "Puerto Villamil",
+                "neighborhoods":[
+                    "16 de Marzo",
+                    "Cormorán"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Guayas",
+        "cities":[
+            {
+                "city": "Guayaquil",
+                "neighborhoods":[
+                    "La Boca",
+                    "La Ciénaga"
+                ]
+            },
+            {
+                "city": "Durán",
+                "neighborhoods":[
+                    "Sabanilla",
+                    "Delia"
+                ]
+            },
+            {
+                "city": "Milagro",
+                "neighborhoods":[
+                    "Ciudadela San Camilo",
+                    "Quinta Patricia"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Imbabura",
+        "cities":[
+            {
+                "city": "Ibarra",
+                "neighborhoods":[
+                    "Alpachaca",
+                    "San Francisco"
+                ]
+            },
+            {
+                "city": "Otavalo",
+                "neighborhoods":[
+                    "El Jordan",
+                    "La Imbaya"
+                ]
+            },
+            {
+                "city": "Atuntaqui",
+                "neighborhoods":[
+                    "El Jardin",
+                    "Amazonas"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Loja",
+        "cities":[
+            {
+                "city": "Loja",
+                "neighborhoods":[
+                    "Barrio 18 de Noviembre",
+                    "El Valle"
+                ]
+            },
+            {
+                "city": "Catamayo",
+                "neighborhoods":[
+                    "Atillo",
+                    "El Carmen"
+                ]
+            },
+            {
+                "city": "Cariamanga",
+                "neighborhoods":[
+                    "Chile",
+                    "La Loma"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Los Ríos",
+        "cities":[
+            {
+                "city": "Quevedo",
+                "neighborhoods":[
+                    "Las Palmas",
+                    "Libertad"
+                ]
+            },
+            {
+                "city": "Babahoyo",
+                "neighborhoods":[
+                    "La Macarena",
+                    "La Reforma"
+                ]
+            },
+            {
+                "city": "Buena Fe",
+                "neighborhoods":[
+                    "El Descanso",
+                    "El Guineo"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Manabí",
+        "cities":[
+            {
+                "city": "Manta",
+                "neighborhoods":[
+                    "Ciudad del Sol",
+                    "Maratea"
+                ]
+            },
+            {
+                "city": "Portoviejo",
+                "neighborhoods":[
+                    "Agua Blanca",
+                    "Naranjal"
+                ]
+            },
+            {
+                "city": "Chone",
+                "neighborhoods":[
+                    "Azucena",
+                    "Cañales"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Morona Santiago",
+        "cities":[
+            {
+                "city": "Macas",
+                "neighborhoods":[
+                    "Nueva Jerusalem",
+                    "Valle Real"
+                ]
+            },
+            {
+                "city": "Sucúa",
+                "neighborhoods":[
+                    "Hoya del Upano",
+                    "Tuntaim"
+                ]
+            },
+            {
+                "city": "Gualaquiza",
+                "neighborhoods":[
+                    "El Empalme",
+                    "Sevilla"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Napo",
+        "cities":[
+            {
+                "city": "Tena",
+                "neighborhoods":[
+                    "Borbua",
+                    "Muyuba"
+                ]
+            },
+            {
+                "city": "Archidona",
+                "neighborhoods":[
+                    "Batan Cocha",
+                    "Camilto Yacu"
+                ]
+            },
+            {
+                "city": "El Chaco",
+                "neighborhoods":[
+                    "Cascabel",
+                    "Moradillos"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Orellana",
+        "cities":[
+            {
+                "city": "El Coca",
+                "neighborhoods":[
+                    "Amarun Mesa",
+                    "Moretal"
+                ]
+            },
+            {
+                "city": "La Joya de los Sachas",
+                "neighborhoods":[
+                    "Los Laureles",
+                    "Juan Montalvo"
+                ]
+            },
+            {
+                "city": "Loreto",
+                "neighborhoods":[
+                    "Cascabel 2",
+                    "Cooperativa Río Suyuno"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Pastaza",
+        "cities":[
+            {
+                "city": "Puyo",
+                "neighborhoods":[
+                    "El Triunfo",
+                    "La Florida"
+                ]
+            },
+            {
+                "city": "Santa Clara",
+                "neighborhoods":[
+                    "Santa Clara",
+                    "San José"
+                ]
+            },
+            {
+                "city": "Arajuno",
+                "neighborhoods":[
+                    "Arajuno",
+                    "San José"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Pichincha",
+        "cities":[
+            {
+                "city": "Quito",
+                "neighborhoods":[
+                    "La Carolina",
+                    "La Mariscal",
+                    "Solanda",
+                    "Carcelen",
+                    "La Magdalena",
+                    "La Tola",
+                    "La Vicentina",
+                    "Centro Histórico",
+                    "La Libertad",
+                    "El Dorado",
+                    "El Batán",
+                    "Alpachaca",
+                    "San Francisco",
+                    "El Condado",
+                    "La Concepción",
+                    "La Floresta",
+                    "La Paz",
+                    "La Pradera",
+                    "La Ronda",
+                    "Villaflora"
+                ]
+            },
+            {
+                "city": "Cayambe",
+                "neighborhoods":[
+                    "Cayambe",
+                    "Ayora"
+                ]
+            },
+            {
+                "city": "Sangolquí",
+                "neighborhoods": [
+                    "Sangolquí",
+                    "San Pedro de Taboada"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Santa Elena",
+        "cities":[
+            {
+                "city": "Salinas",
+                "neighborhoods":[
+                    "Chipipe",
+                    "Ensenada"
+                ]
+            },
+            {
+                "city": "Santa Elena",
+                "neighborhoods":[
+                    "Ciudadela el Delfín",
+                    "Punta Centinela"
+                ]
+            },
+            {
+                "city": "La Libertad",
+                "neighborhoods":[
+                    "Sector 10 de Agosto",
+                    "Sector Kennedy"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Santo Domingo de los Tsáchilas",
+        "cities":[
+            {
+                "city": "Santo Domingo",
+                "neighborhoods":[
+                    "El Esfuerzo",
+                    "El Progreso"
+                ]   
+            },
+            {
+                "city": "La Concordia",
+                "neighborhoods":[
+                    "Flor del Valle",
+                    "Monterrey"
+                ]
+            },
+            {
+                "city": "Nueva Loja",
+                "neighborhoods":[
+                    "Central",
+                    "Rafael Chica"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Sucumbíos",
+        "cities":[
+            {
+                "city": "Shushufindi",
+                "neighborhoods":[
+                    "La unión",
+                    "Puerto Eno"
+                ]
+            },
+            {
+                "city": "Puerto el Carmen de Putumayo",
+                "neighborhoods":[
+                    "Centinela",
+                    "Puerto Riera"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Tungurahua",
+        "cities":[
+            {
+                "city": "Ambato",
+                "neighborhoods":[
+                    "Atocha",
+                    "Ficoa"
+                ]
+            },
+            {
+                "city": "Baños de Agua Santa",
+                "neighborhoods":[
+                    "El Coliseo San José",
+                    "San Vicente"
+                ]
+            },
+            {
+                "city": "Pelileo",
+                "neighborhoods":[
+                    "Chaupi",
+                    "Salate"
+                ]
+            }
+        ]
+    },
+    {
+        "province": "Zamora Chinchipe",
+        "cities":[
+            {
+                "city": "Zamora",
+                "neighborhoods":[
+                    "Bombuscaro",
+                    "La Chacra"
+                ]
+            },
+            {
+                "city": "Yantzaza",
+                "neighborhoods":[
+                    "Los Ceibos",
+                    "Pita"
+                ]
+            },
+            {
+                "city": "Zumba",
+                "neighborhoods":[
+                    "El Suran",
+                    "Las Juntas"
+                ]
+            }
+        ]
+    }
+]
