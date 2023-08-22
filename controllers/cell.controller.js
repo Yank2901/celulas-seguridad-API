@@ -1,5 +1,5 @@
-const { request, response } = require('express');
 const Cell = require('../models/cell.model');
+
 module.exports.createCell = (request,response) =>{
     const {name,province,city,neighborhood,address,users} = request.body;
     Cell.create({
@@ -67,3 +67,20 @@ exports.updateCell= (request, response) =>{
         ) 
     .catch(err=>response.json(err)) 
 } 
+
+// Quiero buscar una celula por el campo _id autogenerado por mongo
+exports.getCellById = (request, res) => {
+    const cellId = request.params.cellId; // Capturar el valor de _id desde los parámetros de la solicitud
+    Cell.findOne({_id: cellId})
+        .then(cell => {
+            if (!cell) {
+                return res.status(404).json({ error: "Celda no encontrada." });
+            }
+            res.json(cell);
+        })
+        .catch(err => {
+            res.status(500).json({
+                error: err.message || "Ocurrió un error al obtener la celda por su _id."
+            });
+        });
+};

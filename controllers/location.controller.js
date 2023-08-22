@@ -4,6 +4,16 @@ const Location = require('../models/location.model');
 exports.getAllLocations = (_, res) => {
     Location.find({})
         .then(locations => {
+            locations.sort((a, b) => a.province.localeCompare(b.province));
+
+            locations.forEach(location => {
+                location.cities.sort((a, b) => a.city.localeCompare(b.city));
+
+                location.cities.forEach(city => {
+                    city.neighborhoods.sort();
+                });
+            });
+
             res.json(locations);
         })
         .catch(err => {

@@ -9,12 +9,13 @@ module.exports = function (app) {
 
   // Rutas para ubicaciones
   app.get('/api/locations', LocationController.getAllLocations);
-
+  
   // Rutas para celdas
   app.post('/api/cell/new', CellController.createCell);
   app.get('/api/cells', CellController.getAllCells);
   app.get('/api/cells/:province', CellController.getCellsByProvince);
   app.get('/api/cells/:province/:city', CellController.getCellsByCity);
   app.get('/api/cells/:province/:city/:neighborhood', CellController.getCellsByNeighborhood);
+  app.get('/api/cell/:cellId', CellController.getCellById);
   app.put('/api/cells/:id', CellController.updateCell);
 };
