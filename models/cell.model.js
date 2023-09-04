@@ -1,37 +1,41 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const CellSchema = new mongoose.Schema({
-    
   name: {
     type: String,
-    required: true
-    },
-    
+    required: true,
+  },
+
   province: {
     type: String,
-    required: true
+    required: true,
   },
   city: {
     type: String,
-    required: true
+    required: true,
   },
   neighborhood: {
     type: String,
-    required: true
+    required: true,
   },
   address: {
     type: String,
-    required: true
+    required: true,
   },
-  users: [{
-        id: {
-            type: String,
-            required: true
-        }
-    }]
-
+  users: [
+    {
+      id: {
+        type: String,
+        required: true,
+      },
+      name: {
+        type: String,
+        required: true,
+      },
+    },
+  ],
 });
 
-const Cell = mongoose.model('cells1', CellSchema);
+const Cell = mongoose.model("cells1", CellSchema);
 
 module.exports = Cell;
