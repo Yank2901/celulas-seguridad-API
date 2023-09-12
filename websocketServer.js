@@ -25,7 +25,7 @@ function setupWebSocketServer(server) {
             //quiero enviar una alerta a todos los usuarios que esten en la sala
             io.emit("mensaje-confirmado", chat);
 
-            console.log("Mensaje nuevo enviado a la sala:", data.idCell);
+            console.log("Mensaje nuevo enviado a la sala desde server socket:", data.idCell);
           })
           .catch((err) => {
             console.error(

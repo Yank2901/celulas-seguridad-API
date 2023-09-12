@@ -20,6 +20,7 @@ module.exports.createChat = (request, response, io) => {
         date: date,
         typeMessage: typeMessage,
       });
+      console.log("Mensaje nuevo enviado a la sala desde chat controller:", idCell);
       response.json(chat);
     })
     .catch((err) => response.status(400).json(err));
