@@ -1,6 +1,6 @@
 const Chat = require("../models/chat.model");
 
-module.exports.createChat = (request, response) => {
+module.exports.createChat = (request, response, io) => {
   const { idCell, idUser, nameUser, message, date, typeMessage } = request.body;
   Chat.create({
     idCell: idCell,
@@ -10,7 +10,18 @@ module.exports.createChat = (request, response) => {
     date: date,
     typeMessage: typeMessage,
   })
-    .then((chat) => response.json(chat))
+    .then((chat) => {
+      // Emitir el evento a todos los clientes en la misma sala
+      io.to(idCell).emit('mensaje-confirmado', {
+        idCell: idCell,
+        idUser: idUser,
+        nameUser: nameUser,
+        message: message,
+        date: date,
+        typeMessage: typeMessage,
+      });
+      response.json(chat);
+    })
     .catch((err) => response.status(400).json(err));
 };
 
